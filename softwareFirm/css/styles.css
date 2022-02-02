@@ -1,0 +1,53 @@
+body {
+    background-color: #464646;
+    font-family: sans-serif;
+    color: #fff;
+}
+.navbar-brand {
+    font-size: 30px;
+    filter: saturate(2);
+}
+.navbar {
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li a{
+    color: rgb(0, 0, 0) !important;
+    font-size: 23px;
+    float: right;
+    text-align: left;
+    border: 3px solid rgb(0, 0, 0, );
+}
+.navbar-toggler-icon {
+    outline: none !important;
+}
+.jumbotron {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: block;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.media img {
+    width: 100%;
+    max-width: 470px;
+}
+.col-md-4 {
+    margin-bottom: 5%;
+    color: rgb(0, 0, 0);
+}
+.about-info .about-text {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.about-info {
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+}
+.container .form-group {
+    margin-top: 5%;
+}
+.btn .btn-success {
+    display: block;
+    padding: 10px;
+}
